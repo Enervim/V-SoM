@@ -1,7 +1,7 @@
 # V-SoM — Versatile System-on-Module for Power Electronics Debug & Control
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1e4d6177-b11d-4a40-bb3b-c211c3917550" width="45%"/>
+  <img src="Images/V-SoM_Rendering.png" width="45%"/>
   &nbsp;&nbsp;
   <img src="https://github.com/user-attachments/assets/ee71a4b1-e50b-49ab-b51e-512a95fa3a74" width="45%"/>
 </p>
@@ -32,7 +32,7 @@ Developing a custom power electronics controller typically requires:
 
 **V-SoM eliminates this overhead.**
 
-Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module — letting engineers focus on converter design and control algorithms rather than controller infrastructure.
+Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...]
 
 ---
 
@@ -159,7 +159,7 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ### Galvanic Isolation
 
-The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issues in high-voltage environments.
+The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...]
 
 ---
 
@@ -192,7 +192,7 @@ Custom firmware can be flashed at any time via ST-Link drag-and-drop.
 
 ## Open Development Philosophy
 
-V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to all underlying hardware resources.
+V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...]
 
 No proprietary runtime. No closed ecosystem.
 
