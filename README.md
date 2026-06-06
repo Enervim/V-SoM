@@ -89,8 +89,7 @@ Observable signals include measured variables, internal controller states, setpo
 
 Communication runs over Ethernet, enabling **remote monitoring and debugging** with no additional instrumentation.
 
-![VScope Example](images/vscope_sinewave.png)
-*Three-phase sinusoidal waveform streamed in real time to VScope.*
+
 
 ### Live Demonstration
 
