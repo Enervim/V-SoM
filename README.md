@@ -72,7 +72,7 @@ This architecture guarantees **deterministic real-time execution** on the M4 whi
 
 One of the key features of V-SoM is **VScope 2.0**, an integrated virtual oscilloscope for real-time monitoring, editing and logging of variables running directly on the target.
 
-<!-- ![VScope](images/vscope_main.png) -->
+![VScope Main Interface](images/vscope_main.png)
 
 ### Capabilities
 
@@ -89,8 +89,16 @@ Observable signals include measured variables, internal controller states, setpo
 
 Communication runs over Ethernet, enabling **remote monitoring and debugging** with no additional instrumentation.
 
-<!-- ![VScope Example](images/vscope_sinewave.png) -->
-<!-- *Three-phase sinusoidal waveform streamed in real time to VScope.* -->
+![VScope Example](images/vscope_sinewave.png)
+*Three-phase sinusoidal waveform streamed in real time to VScope.*
+
+### Live Demonstration
+
+<video src="H755.mp4" width="640" height="480" controls>
+  Your browser does not support the video tag.
+</video>
+
+*STM32H755 V-SoM real-time VScope demonstration — live variable monitoring and signal streaming.*
 
 ---
 
