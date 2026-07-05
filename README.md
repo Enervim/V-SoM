@@ -225,9 +225,40 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 
 ---
 
-## License
+---
 
-[Insert License]
+## 👥 About StellaMarisLabs
+
+<p align="center">
+  <img src="assets/logo.png" width="120" alt="StellaMarisLabs logo" />
+</p>
+
+<p align="center">
+  <b>StellaMarisLabs</b> è un piccolo team indipendente che sviluppa strumenti open source per [breve tagline, es. "l'elettronica embedded e i sistemi di controllo"].
+</p>
+
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/member1.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
+      <b>[Nome Cognome 1]</b><br />
+      <i>[Ruolo, es. Hardware & Firmware Engineer]</i><br /><br />
+      [Breve descrizione: 1-2 frasi su background, esperienza, cosa segue nel progetto.]<br /><br />
+      <a href="https://github.com/username1">GitHub</a> ·
+      <a href="https://linkedin.com/in/username1">LinkedIn</a>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/member2.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
+      <b>[Nome Cognome 2]</b><br />
+      <i>[Ruolo, es. Software & Systems Engineer]</i><br /><br />
+      [Breve descrizione: 1-2 frasi su background, esperienza, cosa segue nel progetto.]<br /><br />
+      <a href="https://github.com/username2">GitHub</a> ·
+      <a href="https://linkedin.com/in/username2">LinkedIn</a>
+    </td>
+  </tr>
+</table>
+
+---
 
 ---
 
