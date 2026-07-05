@@ -32,7 +32,7 @@ Developing a custom power electronics controller typically requires:
 
 **V-SoM eliminates this overhead.**
 
-Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...]
+Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...] 
 
 ---
 
@@ -57,7 +57,7 @@ Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-pe
 
 ## Architecture
 
-![V-SoM Architecture](images/vsom_architecture.svg)
+![V-SoM Architecture](Images/vsom_architecture.svg)
 
 | Core | Role |
 |---|---|
@@ -72,7 +72,7 @@ This architecture guarantees **deterministic real-time execution** on the M4 whi
 
 One of the key features of V-SoM is **VScope 2.0**, an integrated virtual oscilloscope for real-time monitoring, editing and logging of variables running directly on the target.
 
-![VScope Main Interface](images/vscope_main.png)
+![VScope Main Interface](Images/vscope_main.png)
 
 ### Capabilities
 
@@ -103,7 +103,7 @@ Communication runs over Ethernet, enabling **remote monitoring and debugging** w
 
 ## Development Workflow
 
-<!-- ![Workflow](images/workflow.png) -->
+<!-- ![Workflow](Images/workflow.png) -->
 
 ### 1 · Design
 
@@ -148,8 +148,8 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ## Hardware
 
-<!-- ![PCB Front & Back](images/vsom_front_back.png) -->
-<!-- ![Pinout](images/vsom_pinout.png) -->
+<!-- ![PCB Front & Back](Images/vsom_front_back.png) -->
+<!-- ![Pinout](Images/vsom_pinout.png) -->
 
 ### Module
 
@@ -166,7 +166,7 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ### Galvanic Isolation
 
-The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...]
+The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...] 
 
 ---
 
@@ -199,7 +199,7 @@ Custom firmware can be flashed at any time via ST-Link drag-and-drop.
 
 ## Open Development Philosophy
 
-V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...]
+V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...] 
 
 No proprietary runtime. No closed ecosystem.
 
