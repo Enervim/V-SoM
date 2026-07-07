@@ -32,7 +32,7 @@ Developing a custom power electronics controller typically requires:
 
 **V-SoM eliminates this overhead.**
 
-Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...]
+Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module — ready to go from bench test to deployed product without changing hardware.
 
 ---
 
@@ -88,8 +88,6 @@ One of the key features of V-SoM is **VScope 2.0**, an integrated virtual oscill
 Observable signals include measured variables, internal controller states, setpoints, duty cycles, protection thresholds and diagnostic data — without affecting real-time execution performance.
 
 Communication runs over Ethernet, enabling **remote monitoring and debugging** with no additional instrumentation.
-
-
 
 ### Live Demonstration
 
@@ -182,7 +180,7 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ### Galvanic Isolation
 
-The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...]
+The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issues in high-power, high-noise environments.
 
 ---
 
@@ -215,7 +213,7 @@ Custom firmware can be flashed at any time via ST-Link drag-and-drop.
 
 ## Open Development Philosophy
 
-V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...]
+V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to all peripherals, memory and communication resources of the underlying hardware.
 
 No proprietary runtime. No closed ecosystem.
 
@@ -250,7 +248,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 </p>
 
 <p align="center">
-  <b>StellaMarisLabs</b> is a small independent team building open-source tools for embedded electronics and control systems. The team was born as two PhD colleagues at Politecnico di Torino, and grew[...]
+  <b>StellaMarisLabs</b> is a small independent team building open-source tools for embedded electronics and control systems. The team was born as two PhD colleagues at Politecnico di Torino, and grew from there into friendship — and fishing trips along the Ligurian coast.
 </p>
 
 <table width="100%">
@@ -259,7 +257,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
       <img src="assets/member1.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
       <b>Federico Campanelli</b><br />
       <i>Power Electronics Engineer</i><br /><br />
-      PhD candidate at the Power Electronics Innovation Centre (PEIC), Politecnico di Torino, where he also earned his Bachelor's and Master's degrees. His work focuses on power converter design and c[...]
+      PhD candidate at the Power Electronics Innovation Centre (PEIC), Politecnico di Torino, where he also earned his Bachelor's and Master's degrees. His work focuses on power converter design and control.<br /><br />
       <a href="https://github.com/username1">GitHub</a> ·
       <a href="https://linkedin.com/in/username1">LinkedIn</a>
     </td>
@@ -267,7 +265,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
       <img src="assets/member2.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
       <b>Stefano Savio</b><br />
       <i>Power Electronics & Mechatronics Engineer</i><br /><br />
-      PhD candidate at Politecnico di Torino, with a background in Mechatronic Engineering. His research covers digital control of GaN-based DC-DC converters and capacitive power transfer systems for [...]
+      PhD candidate at Politecnico di Torino, with a background in Mechatronic Engineering. His research covers digital control of GaN-based DC-DC converters and capacitive power transfer systems for electric machines.<br /><br />
       <a href="https://github.com/username2">GitHub</a> ·
       <a href="https://linkedin.com/in/username2">LinkedIn</a>
     </td>
