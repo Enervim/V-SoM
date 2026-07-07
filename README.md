@@ -277,7 +277,3 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 ---
 
 ---
-
-## Support
-
-[Insert contact / issue tracker link]
