@@ -32,7 +32,7 @@ Developing a custom power electronics controller typically requires:
 
 **V-SoM eliminates this overhead.**
 
-Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module — ready to go from bench test to deployed product without changing hardware.
+Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module — ready to go from bench test to deployed product without changing hardware. Simply solder it onto your carrier board, flash your control algorithm to the Cortex-M4, and monitor and tune the system in real time over Ethernet with VScope 2.0 — no external debugger or instrumentation required.
 
 ---
 
