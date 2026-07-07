@@ -246,7 +246,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 ## 👥 About StellaMarisLabs
 
 <p align="center">
-  <img src="Images/48738b27-f795-4f4a-869f-6313c22c70dd.jpeg" width="200" alt="StellaMarisLabs logo" />
+  <img src="Images/48738b27-f795-4f4a-869f-6313c22c70dd.jpeg" width="600" alt="StellaMarisLabs logo" />
 </p>
 
 <p align="center">
