@@ -32,7 +32,7 @@ Developing a custom power electronics controller typically requires:
 
 **V-SoM eliminates this overhead.**
 
-Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...] 
+Built around the **STM32H755 dual-core microcontroller**, V-SoM combines high-performance real-time control, rapid prototyping workflows and integrated data acquisition into a single embeddable module[...]
 
 ---
 
@@ -146,6 +146,118 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ---
 
+## Competitive Comparison
+
+<table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
+  <thead>
+    <tr style="background-color:#2c3e50; color:white; font-weight:bold;">
+      <th style="border:1px solid #bdc3c7; padding:12px;">Metric</th>
+      <th style="border:1px solid #bdc3c7; padding:12px;">V-SoM</th>
+      <th style="border:1px solid #bdc3c7; padding:12px;">STM32 G4</th>
+      <th style="border:1px solid #bdc3c7; padding:12px;">B-Board</th>
+      <th style="border:1px solid #bdc3c7; padding:12px;">RTBoxCE</th>
+      <th style="border:1px solid #bdc3c7; padding:12px;">dSpace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Cost</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>$$</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$$</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Remote Control & Software</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>VScope2.0<br/>Open Source</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">NA</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">C-PWM Outputs</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>8</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">12</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">16</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">8</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">16</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>3-16bit</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">5-12bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">8-16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">8-16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">24-16bit</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Sampling</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>3.6MSPS</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">4MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Code Generation</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Open Source</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">PLECS/<br/>Simulink</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Control Frequency</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>≤50kHz</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">≤25kHz</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">≤150kHz</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">≤100kHz<br/>≤1MHz on FPGA</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">≤50kHz</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">PWM Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">156ps</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">184ps</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>4ns</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">2ns</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">10ns</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Max Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">26bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>16bit</strong></td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Deployable</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Lab/Proto/<br/>Product</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Lab/Proto/<br/>Product/Mass</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Lab/Proto</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Lab</td>
+      <td style="border:1px solid #bdc3c7; padding:12px;">Lab</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Ease of Use</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Easy</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Hard</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Easy</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Easy</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Medium</td>
+    </tr>
+  </tbody>
+</table>
+
+**Legend:**
+- 🟢 **Green** — Best-in-class or V-SoM advantage
+- 🟡 **Yellow** — Competitive
+- 🔴 **Red** — Not competitive in this category
+
+---
+
 ## Hardware
 
 <!-- ![PCB Front & Back](Images/vsom_front_back.png) -->
@@ -166,7 +278,7 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ### Galvanic Isolation
 
-The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...] 
+The integrated RJ45 connector includes built-in magnetics, providing galvanic isolation between the host PC, converter controller and external equipment — reducing EMI coupling and ground-loop issue[...]
 
 ---
 
@@ -199,7 +311,7 @@ Custom firmware can be flashed at any time via ST-Link drag-and-drop.
 
 ## Open Development Philosophy
 
-V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...] 
+V-SoM supports both **model-based design** (Simulink, PLECS) and **fully manual embedded development**. Engineers choose the environment that best fits their workflow while retaining full access to al[...]
 
 No proprietary runtime. No closed ecosystem.
 
