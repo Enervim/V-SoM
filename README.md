@@ -148,116 +148,19 @@ or continue using V-SoM directly in **low and medium volume products**.
 
 ## Competitive Comparison
 
-<table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
-  <thead>
-    <tr style="background-color:#2c3e50; color:white; font-weight:bold;">
-      <th style="border:1px solid #bdc3c7; padding:12px;">Metric</th>
-      <th style="border:1px solid #bdc3c7; padding:12px;">V-SoM</th>
-      <th style="border:1px solid #bdc3c7; padding:12px;">STM32 G4</th>
-      <th style="border:1px solid #bdc3c7; padding:12px;">B-Board</th>
-      <th style="border:1px solid #bdc3c7; padding:12px;">RTBoxCE</th>
-      <th style="border:1px solid #bdc3c7; padding:12px;">dSpace</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Cost</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>$$</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$$</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Remote Control & Software</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>VScope2.0<br/>Open Source</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">NA</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">C-PWM Outputs</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>8</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">12</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>3-16bit</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">5-12bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8-16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8-16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">24-16bit</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Sampling</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>3.6MSPS</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">4MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Code Generation</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Open Source</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">PLECS/<br/>Simulink</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Control Frequency</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>≤50kHz</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">≤25kHz</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤150kHz</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤100kHz<br/>≤1MHz on FPGA</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤50kHz</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">PWM Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">156ps</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">184ps</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>4ns</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2ns</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">10ns</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Max Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">26bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>16bit</strong></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Deployable</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Lab/Proto/<br/>Product</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Lab/Proto/<br/>Product/Mass</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab/Proto</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Ease of Use</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Easy</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Hard</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Easy</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Easy</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Medium</td>
-    </tr>
-  </tbody>
-</table>
-
-**Legend:**
-- 🟢 **Green** (#4ade80) — Best-in-class or V-SoM advantage
-- 🟡 **Yellow** (#fbbf24) — Competitive
-- 🔴 **Red** (#f87171) — Not competitive in this category
-- ⚪ **Gray** (#e5e7eb) — Neutral / No advantage
-
----
+| Metric | V-SoM | STM32 G4 | B-Board | RTBoxCE | dSpace |
+|---|:---:|:---:|:---:|:---:|:---:|
+| **Cost** | 🟡 $$ | 🟢 **$** | 🔴 $$$$ | 🔴 $$$$$ | 🔴 $$$$$ |
+| **Remote Control & Software** | 🟢 **VScope2.0**<br>Open Source | ⚪ NA | 🔴 Proprietary | 🔴 Proprietary | 🔴 Proprietary |
+| **C-PWM Outputs** | ⚪ 8 | ⚪ 12 | ⚪ 16 | ⚪ 8 | ⚪ 16 |
+| **ADC Resolution** | 🟢 **3–16bit** | ⚪ 5–12bit | ⚪ 8–16bit | ⚪ 8–16bit | ⚪ 24–16bit |
+| **ADC Sampling** | 🟡 3.6MSPS | 🟢 **4MSPS** | ⚪ 2MSPS | ⚪ 2MSPS | ⚪ 2MSPS |
+| **Code Generation** | 🟢 **Open Source** | 🟡 PLECS/Simulink | ⚪ Yes | ⚪ Yes | ⚪ Yes |
+| **Control Frequency** | 🟡 ≤50kHz | 🟡 ≤25kHz | 🟡 ≤150kHz | 🟡 ≤100kHz<br>≤1MHz on FPGA | ⚪ ≤50kHz |
+| **PWM Resolution** | 🟢 **156ps** | ⚪ 184ps | ⚪ 4ns | ⚪ 2ns | ⚪ 10ns |
+| **ADC Max Resolution** | 🟢 **26bit** | ⚪ 16bit | ⚪ 16bit | ⚪ 16bit | ⚪ 16bit |
+| **Deployable** | 🟢 **Lab/Proto/Product** | 🟢 **Lab/Proto/Product/Mass** | ⚪ Lab/Proto | ⚪ Lab | ⚪ Lab |
+| **Ease of Use** | 🟢 **Easy** | 🔴 Hard | 🟢 **Easy** | 🟢 **Easy** | 🟡 Medium |
 
 ## Hardware
 
@@ -347,24 +250,24 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 </p>
 
 <p align="center">
-  <b>StellaMarisLabs</b> è un piccolo team indipendente che sviluppa strumenti open source per [breve tagline, es. "l'elettronica embedded e i sistemi di controllo"].
+  <b>StellaMarisLabs</b> is a small independent team building open-source tools for embedded electronics and control systems. The team was born as two PhD colleagues at Politecnico di Torino, and grew from there into friendship — and fishing trips along the Ligurian coast.
 </p>
 
 <table width="100%">
   <tr>
     <td align="center" width="50%">
       <img src="assets/member1.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
-      <b>[Nome Cognome 1]</b><br />
-      <i>[Ruolo, es. Hardware & Firmware Engineer]</i><br /><br />
-      [Breve descrizione: 1-2 frasi su background, esperienza, cosa segue nel progetto.]<br /><br />
+      <b>Federico Campanelli</b><br />
+      <i>Power Electronics Engineer</i><br /><br />
+      PhD candidate at the Power Electronics Innovation Centre (PEIC), Politecnico di Torino, where he also earned his Bachelor's and Master's degrees. His work focuses on power converter design and control.<br /><br />
       <a href="https://github.com/username1">GitHub</a> ·
       <a href="https://linkedin.com/in/username1">LinkedIn</a>
     </td>
     <td align="center" width="50%">
       <img src="assets/member2.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
-      <b>[Nome Cognome 2]</b><br />
-      <i>[Ruolo, es. Software & Systems Engineer]</i><br /><br />
-      [Breve descrizione: 1-2 frasi su background, esperienza, cosa segue nel progetto.]<br /><br />
+      <b>Stefano Savio</b><br />
+      <i>Power Electronics & Mechatronics Engineer</i><br /><br />
+      PhD candidate at Politecnico di Torino, with a background in Mechatronic Engineering. His research covers digital control of GaN-based DC-DC converters and capacitive power transfer systems for electric machines.<br /><br />
       <a href="https://github.com/username2">GitHub</a> ·
       <a href="https://linkedin.com/in/username2">LinkedIn</a>
     </td>
