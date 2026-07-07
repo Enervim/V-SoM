@@ -161,100 +161,101 @@ or continue using V-SoM directly in **low and medium volume products**.
   </thead>
   <tbody>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Cost</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>$$</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$$</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">$$$$$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Cost</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>$$</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$$</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">$$$$$</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Remote Control & Software</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>VScope2.0<br/>Open Source</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">NA</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Proprietary</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Remote Control & Software</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>VScope2.0<br/>Open Source</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">NA</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Proprietary</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">C-PWM Outputs</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>8</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">12</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">16</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">8</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">16</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">C-PWM Outputs</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>8</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">12</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>3-16bit</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">5-12bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">8-16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">8-16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">24-16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>3-16bit</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">5-12bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8-16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">8-16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">24-16bit</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Sampling</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>3.6MSPS</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">4MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">2MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Sampling</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>3.6MSPS</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">4MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2MSPS</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Code Generation</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Open Source</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">PLECS/<br/>Simulink</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Yes</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Code Generation</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Open Source</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">PLECS/<br/>Simulink</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Yes</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Control Frequency</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>≤50kHz</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">≤25kHz</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">≤150kHz</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">≤100kHz<br/>≤1MHz on FPGA</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">≤50kHz</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Control Frequency</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>≤50kHz</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">≤25kHz</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤150kHz</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤100kHz<br/>≤1MHz on FPGA</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">≤50kHz</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">PWM Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">156ps</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">184ps</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>4ns</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">2ns</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">10ns</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">PWM Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">156ps</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">184ps</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>4ns</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">2ns</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">10ns</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">ADC Max Resolution</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">26bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">16bit</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>16bit</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">ADC Max Resolution</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">26bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">16bit</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>16bit</strong></td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Deployable</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Lab/Proto/<br/>Product</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Lab/Proto/<br/>Product/Mass</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Lab/Proto</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Lab</td>
-      <td style="border:1px solid #bdc3c7; padding:12px;">Lab</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Deployable</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Lab/Proto/<br/>Product</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Lab/Proto/<br/>Product/Mass</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab/Proto</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#e5e7eb;">Lab</td>
     </tr>
     <tr>
-      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#ecf0f1;">Ease of Use</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#d5f4e6;"><strong>Easy</strong></td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fadbd8;">Hard</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Easy</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Easy</td>
-      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fff9e6;">Medium</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; font-weight:bold; background-color:#f0f0f0;">Ease of Use</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#4ade80;"><strong>Easy</strong></td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#f87171;">Hard</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Easy</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Easy</td>
+      <td style="border:1px solid #bdc3c7; padding:12px; background-color:#fbbf24;">Medium</td>
     </tr>
   </tbody>
 </table>
 
 **Legend:**
-- 🟢 **Green** — Best-in-class or V-SoM advantage
-- 🟡 **Yellow** — Competitive
-- 🔴 **Red** — Not competitive in this category
+- 🟢 **Green** (#4ade80) — Best-in-class or V-SoM advantage
+- 🟡 **Yellow** (#fbbf24) — Competitive
+- 🔴 **Red** (#f87171) — Not competitive in this category
+- ⚪ **Gray** (#e5e7eb) — Neutral / No advantage
 
 ---
 
