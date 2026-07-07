@@ -246,11 +246,11 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
 ## 👥 About StellaMarisLabs
 
 <p align="center">
-  <img src="assets/logo.png" width="120" alt="StellaMarisLabs logo" />
+  <img src="Images/48738b27-f795-4f4a-869f-6313c22c70dd.jpeg" width="120" alt="StellaMarisLabs logo" />
 </p>
 
 <p align="center">
-  <b>StellaMarisLabs</b> is a small independent team building open-source tools for embedded electronics and control systems. The team was born as two PhD colleagues at Politecnico di Torino, and grew from there into friendship — and fishing trips along the Ligurian coast.
+  <b>StellaMarisLabs</b> is a small independent team building open-source tools for embedded electronics and control systems. The team was born as two PhD colleagues at Politecnico di Torino, and grew[...]
 </p>
 
 <table width="100%">
@@ -259,7 +259,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
       <img src="assets/member1.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
       <b>Federico Campanelli</b><br />
       <i>Power Electronics Engineer</i><br /><br />
-      PhD candidate at the Power Electronics Innovation Centre (PEIC), Politecnico di Torino, where he also earned his Bachelor's and Master's degrees. His work focuses on power converter design and control.<br /><br />
+      PhD candidate at the Power Electronics Innovation Centre (PEIC), Politecnico di Torino, where he also earned his Bachelor's and Master's degrees. His work focuses on power converter design and c[...]
       <a href="https://github.com/username1">GitHub</a> ·
       <a href="https://linkedin.com/in/username1">LinkedIn</a>
     </td>
@@ -267,7 +267,7 @@ netsh advfirewall firewall add rule name="VScope UDP 5005" dir=in action=allow p
       <img src="assets/member2.jpg" width="140" height="140" style="border-radius:50%;object-fit:cover;" /><br /><br />
       <b>Stefano Savio</b><br />
       <i>Power Electronics & Mechatronics Engineer</i><br /><br />
-      PhD candidate at Politecnico di Torino, with a background in Mechatronic Engineering. His research covers digital control of GaN-based DC-DC converters and capacitive power transfer systems for electric machines.<br /><br />
+      PhD candidate at Politecnico di Torino, with a background in Mechatronic Engineering. His research covers digital control of GaN-based DC-DC converters and capacitive power transfer systems for [...]
       <a href="https://github.com/username2">GitHub</a> ·
       <a href="https://linkedin.com/in/username2">LinkedIn</a>
     </td>
